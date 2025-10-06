@@ -11,7 +11,7 @@ const Header: React.FC = () => {
       fontSize: "1.5rem",
       fontWeight: "bold"
     }}>
-      IMDB Replica
+      OMDB Site
     </header>
   );
 };

@@ -49,10 +49,10 @@ const App: React.FC = () => {
   };
 
   return (
-    <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+    <div style={{ width: "100%", margin: "0 auto" }}>
       <Header />
       <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
-      <main style={{ padding: "1rem", minHeight: "60vh", width: "100%" }}>
+      <main style={{ padding: "0rem", minHeight: "60vh", width: "90%", margin: "0 auto" }}>
         <MovieList movies={movies} onMovieClick={openModal} />
       </main>
 
