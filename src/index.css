@@ -74,3 +74,34 @@ html, body, #root {
     background-color: #f9f9f9;
   }
 }
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  h1, h2, h3 {
+    font-size: 1.2em;
+  }
+
+  main {
+    padding: 0.5rem !important;
+  }
+
+  .movie-grid {
+    gap: 0.5rem !important;
+  }
+
+  .movie-card {
+    max-width: 90vw !important;
+    margin: 0 auto !important;
+  }
+
+  .search-bar {
+    width: 90vw !important;
+    font-size: 1rem !important;
+  }
+}
